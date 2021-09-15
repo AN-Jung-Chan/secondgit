@@ -7,6 +7,10 @@ public class RegisterRequest {
 	private String name;
 	private String gender;
 	private String email;
+	
+	public RegisterRequest() {
+		System.out.println("RegisterRequest() 생성");
+	}
 
 	public String getId() {
 		return id;

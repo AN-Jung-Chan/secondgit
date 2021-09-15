@@ -37,13 +37,5 @@
 	<bean id="friendsDao" class="spring.friend.FriendsDao">
 		<constructor-arg ref="dataSource" />
 	</bean>
-	
-	<bean id="friendsRegSvc" class="spring.friend.FriendsRegisterService">
-		<constructor-arg ref="friendsDao" />
-	</bean>
-	
-	<bean id="changePwdSvc" class="spring.friend.ChangePasswordService">
-		<constructor-arg ref="friendsDao" />
-	</bean>
 
 </beans>

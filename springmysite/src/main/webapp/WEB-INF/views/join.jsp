@@ -18,7 +18,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="main">JSP 게시판 웹 사이트</a>
+				<a class="navbar-brand" href="main">헬로프렌즈 웹 사이트</a>
 		</div>
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav">
@@ -43,7 +43,7 @@
 		<div class="col-lg-4"></div>
 		<div class="col-lg-4">
 			<div class="jumboton" style="padding-top: 20px;">
-				<form method="post" action="login">
+				<form method="post" action="join">
 					<h3 style="text-align: center;">회원가입 화면</h3>
 					<div class="form-group">
 						<input type="text" class="form-control" placeholder="아이디" name="id" id="id" maxlength="20">
@@ -52,17 +52,17 @@
 						<input type="password" class="form-control" placeholder="비밀번호" name="password" id="password" maxlength="20">
 					</div>
 					<div class="form-group">
-						<input type="password" class="form-control" placeholder="비밀번호 확인" name="cinfirmPassword" id="cinfirmPassword" maxlength="20">
+						<input type="password" class="form-control" placeholder="비밀번호 확인" name="confirmPassword" id="confirmPassword" maxlength="20">
 					</div>
 					<div class="form-group">
 						<input type="text" class="form-control" placeholder="이름" name="name" id="name" maxlength="20">
 					</div>
 					<div class="form-group" style="text-align: center">
 						<label class="btn btn-primary active">
-							<input type="radio" name="userGender" autocomplete="off" value="남자" id="gender" checked>남자
+							<input type="radio" name="gender" autocomplete="off" value="남자" id="gender" checked>남자
 						</label>
 						<label class="btn btn-primary ">
-							<input type="radio" name="userGender" autocomplete="off" value="여자" id="gender" checked>여자
+							<input type="radio" name="gender" autocomplete="off" value="여자" id="gender" checked>여자
 						</label>
 					</div>
 					<div class="form-group">
